@@ -3,6 +3,7 @@ import os
 
 # if capturing video from phone using 'IP Webcam' APP
 # PHONE_URL = 'https://Phone IP address:PORT/video'
+# if capturing directly from device camera set VideoCapture to 0 index -> VideoCapture(0)
 
 face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_classifier = cv2.CascadeClassifier('haarcascade_eye.xml')
